@@ -15,7 +15,7 @@ p{
     color: dimgray;
 }
 
-.msg-highlight{
+.orange-highlight{
     color: orange;
 }
 
@@ -56,6 +56,38 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 100px;
+}
 
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    height: 80%;
+    background-color: white;
+
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#beginner-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, navy, blue);
+    border-image-slice: 1;
+
+}
+
+#design{
+    text-align: center;
+    font-size: 12px;
 }
 
